@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186550690877",
+    "project_id": "fir-e4-camera-gallery",
+    "storage_bucket": "fir-e4-camera-gallery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186550690877:android:8a8d6b8833ecff35777654",
+        "android_client_info": {
+          "package_name": "com.example.firebasee4_camera_gallery_recyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186550690877-nhflc592ggep8uc7d5nhegd6sdu0tih4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO3nEe_KY2EdfGyKMk2174Kf38ANAmsJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186550690877-nhflc592ggep8uc7d5nhegd6sdu0tih4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

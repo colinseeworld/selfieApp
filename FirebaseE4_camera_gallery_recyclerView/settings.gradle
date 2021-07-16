@@ -1,0 +1,2 @@
+rootProject.name = "FirebaseE4_camera_gallery_recyclerView"
+include ':app'

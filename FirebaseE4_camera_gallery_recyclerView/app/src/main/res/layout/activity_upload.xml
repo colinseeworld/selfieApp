@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UploadActivity">
+
+    <ImageView
+        android:id="@+id/image_view_pic"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/image_view_pic"
+        android:layout_marginTop="50dp"
+        android:text="Upload"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/button_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Camera"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:src="@drawable/camera"/>
+
+    <ImageButton
+        android:id="@+id/button_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Gallery"
+        android:textSize="20dp"
+        android:src="@drawable/album"
+        android:background="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
